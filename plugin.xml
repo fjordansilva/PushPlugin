@@ -19,6 +19,8 @@
 
 	<license>MIT</license>
 
+    <dependency id="org.apache.cordova.media" version=">=0.2.0" />
+
 	<js-module src="www/PushNotification.js" name="PushNotification">
         <clobbers target="PushNotification" />
 	</js-module>
